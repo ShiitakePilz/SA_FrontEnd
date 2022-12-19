@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 50%;
+    line-height: 30px;
+}
+h1{
+    font-size: 5.4rem;
+    margin-bottom: 5rem;
+}
+
+/* 整個外框框 */
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-cent{
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* 模式設定 */
+.set{
+    text-align: center;
+}
+
+/* 下拉清單 */
+.set select{
+    font-size: 15px;
+    background-color: #BABABA;
+    height: 35px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+/* 按鈕 */
+.btn{
+    font-size: 12px;
+    background-color: #535C5E;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding: 2.5px 5px;
+    margin: 5px;
+}
