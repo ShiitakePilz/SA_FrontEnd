@@ -1,0 +1,61 @@
+table{
+    text-align: center;
+    border: 1rem solid rgb(122,125,104);
+    background-color: rgb(122,125,104);
+    margin-bottom: 4rem;
+}
+
+th{
+    text-align: center;
+    border: 3px solid rgb(122,125,104);
+    font-size: 3.6rem;
+    background-color: rgb(122,125,104);
+    color: rgb(228,223,207);
+}
+
+td{
+    text-align: center;
+    font-size: 2.4rem;
+    background-color: rgb(228,223,207);
+    color: rgb(122,125,104);
+    border: 3px solid rgb(228,223,207);
+    line-height: 4rem;
+    font-weight: 700;
+}
+
+p{
+    font-size: 3.6rem;
+    color: rgb(122,125,104);
+    font-weight: 700;
+    text-align: center;
+}
+
+.total-place{
+    margin-bottom: 4rem;
+}
+
+.button-cancel{
+    font-size: 2.4rem;
+    padding: 1rem 1rem;
+    background-color: rgb(228,223,207);
+    cursor: pointer;
+    border: none;
+    color: rgb(122,125,104);
+    border-radius: 20%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-right: 2rem;
+    font-weight: 700;
+}
+
+.button-pay{
+    font-size: 2.4rem;
+    padding: 1rem 1rem;
+    color: rgb(228,223,207);
+    cursor: pointer;
+    border: none;
+    background-color: rgb(122,125,104);
+    border-radius: 20%;   
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-left: 2rem;
+    font-weight: 700;
+}
