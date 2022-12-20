@@ -45,24 +45,24 @@ h1{
 .hidden {
     display: none;
 }
-/* 表格外框 */
-.box{
-    background-color: blanchedalmond;
-    width: 20rem;
-    margin-bottom: 2.5rem;
-    border-radius: 5px;
-}
+
 /* 表格 */
 table{
+    background-color: bisque;
     text-align: center;
     margin: 0.5rem;
-    border-color: black;
-    border-style: solid;
+    width: 20rem;
+}
+.table-left{
+    text-align: right;
+}
+.table-right{
+    text-align: left;
 }
 /* 按鈕 */
 .btn{
-    font-size: 15px;
-    background-color: #535C5E;
+    font-size: 12px;
+    background-color: #c7dee3;
     height: 35px;
     border-radius: 5px;
     border: none;
