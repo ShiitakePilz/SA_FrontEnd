@@ -13,25 +13,32 @@
             <h1>目前訂單</h1>
 
             <div class="box"><a href="">
-            <table  border="1">
+            <table>
                 <tr>
                     <td colspan="3">訂單編號 {{001}}</td>
                     <td>{{作業中}}</td>
                 </tr>
                 <tr>
-                    <td colspan="4">{{標準}}{{日曬}}{{機器}}</td>
+                    <td colspan="4">模式細節</td>
                 </tr>
                 <tr>
-                    <td>完成時間</td><td colspan="3">{{2022/12/30 12:22pm}}</td>
+                    <td class="table-left" colspan="2">洗滌模式</td>
+                    <td class="table-right" colspan="2">{{標準}}</td>
                 </tr>
                 <tr>
-                    <td colspan="2">${{120}}元</td>
-                    <td colspan="2">{{40}}點</td>
+                    <td class="table-left" colspan="2">乾燥模式</td>
+                    <td class="table-right" colspan="2">{{日曬}}</td>
+                </tr>                <tr>
+                    <td class="table-left" colspan="2">摺衣模式</td>
+                    <td class="table-right" colspan="2">{{機器人}}</td>
+                </tr>
+                <tr>
+                    <td colspan="4">總花費 ${{120}}元 獲得{{40}}點</td>
                 </tr>
             </table></a>
             </div>
 
-            <a href=""><input class="btn" type="submit" value="返回"></a>
+            <a href=""><input class="btn" type="button" value="返回"></a>
         </div>
     </div>
 </body>
