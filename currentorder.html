@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrentOrder</title>
+    <link rel="stylesheet" href="assets/css/list.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flex-col flex-cent">
+            <h1>目前訂單</h1>
+
+            <div class="box"><a href="">
+            <table  border="1">
+                <tr>
+                    <td colspan="3">訂單編號 {{001}}</td>
+                    <td>{{作業中}}</td>
+                </tr>
+                <tr>
+                    <td colspan="4">{{標準}}{{日曬}}{{機器}}</td>
+                </tr>
+                <tr>
+                    <td>完成時間</td><td colspan="3">{{2022/12/30 12:22pm}}</td>
+                </tr>
+                <tr>
+                    <td colspan="2">${{120}}元</td>
+                    <td colspan="2">{{40}}點</td>
+                </tr>
+            </table></a>
+            </div>
+
+            <a href=""><input class="btn" type="submit" value="返回"></a>
+        </div>
+    </div>
+</body>
+</html>
