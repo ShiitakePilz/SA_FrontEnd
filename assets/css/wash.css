@@ -7,6 +7,12 @@
 h1{
     font-size: 2.7rem;
     margin-bottom: 2.5rem;
+    color: rgba(134,157,157);
+    font-weight: 900;
+}
+
+:root{
+    background: rgba(199,210,212);
 }
 
 /* 整個外框框 */
@@ -45,28 +51,50 @@ h1{
 /* 模式設定 */
 .set{
     text-align: center;
+    line-height: 4rem;
+    color: rgba(134,157,157);
+    font-weight: 700;
 }
 h4{
     font-size: 20px;
+    color: rgba(134,157,157);
+    font-weight: 700;
 }
 /* 下拉清單 */
 .set select{
     font-size: 15px;
-    background-color: #BABABA;
+    background-color: rgba(134,157,157);
     height: 35px;
     padding: 8px;
     border-radius: 5px;
     border: none;
     margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700;
 }
 
 /* 按鈕 */
-.btn{
-    font-size: 15px;
-    background-color: #535C5E;
-    height: 35px;
-    border-radius: 5px;
+.btn-re{
+    font-size: 1.2rem;
+    padding: 0.5rem 0.5rem;
+    background-color: rgb(199,210,212);
+    cursor: pointer;
     border: none;
-    padding: 2.5px 5px;
-    margin: 5px;
+    color: rgba(134, 157, 157, 0.8);
+    border-radius: 0.5rem;   
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-right: 1rem;
+    font-weight: 700;
+}
+.btn-next{
+    font-size: 1.2rem;
+    padding: 0.5rem 0.5rem;
+    background-color: rgb(134,157,157);
+    cursor: pointer;
+    border: none;
+    color: rgba(1255, 255, 255, 0.8);
+    border-radius: 0.5rem;   
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-left: 1rem;
+    font-weight: 700;  
 }
