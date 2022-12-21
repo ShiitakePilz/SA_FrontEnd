@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finish</title>
+    <link rel="stylesheet" href="assets/css/finish.css">
+</head>
+<script>
+    var listBtn=function(){
+    document.getElementById('yesform').style.display=(document.getElementById('yesform').style.display=='none')?'block':'block';
+    }
+</script>
+
+<body>
+    <div class="container">
+        <div class="flex-col flex-cent">
+            <h1>訂單完成</h1>
+            <h3>是否要將此次洗衣模式設為偏好模式？</h3>
+            <div>
+                <input class="btn" type="button" value="否">
+                <input id="yes" class="btn" type="button" value="是" onclick="listBtn()"> 
+            </div>
+            
+            <div id="yesform" class="yesform">
+                <h2>偏好模式名稱設定</h2>
+                <form>
+                    <img src="assets/image/editor.png" height="30px"><input class="modelname" type="text">
+                    <div>
+                        <input class="btn" type="button" value="取消">
+                        <input class="btn yes" type="reset" value="重設"> 
+                        <input class="btn yes" type="button" value="儲存"> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
