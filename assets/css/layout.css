@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     line-height: 30px;
+    background: rgba(199,210,212); 
+    color: rgba(134,157,157); 
 }
 a {
     text-decoration:none;
@@ -49,6 +51,8 @@ h1{
 .btn{
     font-size: 20px;
     background-color: #c7dee3;
+    color: rgba(134, 157, 157, 0.8); 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
     height: 40px;
     width: 100px;
     border-radius: 5px;
@@ -58,5 +62,51 @@ h1{
 }
 .btnbox{
     margin: 5px;
+    text-align: center;
+}
+
+/* 條款視窗 */
+.dialog{
+    text-align: center;
+    position: fixed;
+    font-size: 1.1rem;
+    top: 5rem;
+    left: 18%;
+    transform: translate(-50px,0px);
+    width: 350px;
+    padding: 10px;
+    border: 2px solid;
+    display: none;
+    border-radius: 5px;
+}
+/* 關閉按鈕 */
+#close{
+    font-size: 20px;
+    background-color: #c7dee3;
+    color: rgba(134, 157, 157, 0.8); 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 2.5px 10px;
+    margin: 5px;
+}
+
+/* 條款按鈕 */
+
+#show{
+    font-size: 1rem;
+    background-color: #c7dee3;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    padding: 2.5px 10px;
+    margin: 15px;
+}
+
+
+.sth{
     text-align: center;
 }
