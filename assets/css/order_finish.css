@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .title h5{
     color: #999EA2;
 }
@@ -148,3 +149,8 @@
   input:checked+.radio-tile label {
     color: white;
   }
+
+
+
+
+
