@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wash-pet</title>
+    <title>MemberData</title>
     <link rel="stylesheet" href="assets/css/wash.css">
 </head>
 <body>
     <div class="container">
         <div class="flex-col flex-cent">
-            <div class="title"><a href="index.html"><img src="assets/image/back.png" height="30rem" style="margin: 0 0.5rem;"></a><h1>寵物專屬洗衣</h1></div>
+            <div class="title"><a href="index.html"><img src="assets/image/back.png" height="30rem" style="margin: 0 0.5rem;"></a><h1>會員資料</h1></div>
+            <h2>常用洗衣模式清單</h2>
             <form>
                 <div class="set">
                     <select class="model">
-                        <option>----常用模式選擇----</option>
                         <option>{{預設洗衣模式1}}</option>
+                        <option>{{預設洗衣模式2}}</option>
+                        <option>{{預設洗衣模式3}}</option>
                     </select>
+                    <br>
+                    <input class="modelname" id="modelname" type="text" required  placeholder="設定名稱📝" > 
                     <h4>洗滌模式</h4>
                     <input type="radio" id="standard" name="wash" value="standard" checked><label for="standard">標準</label>
                     <input type="radio" id="delicate" name="wash" value="delicate" ><label for="delicate">精緻洗</label>
@@ -31,8 +35,8 @@
                     <input type="radio" id="no" name="fold" value="no" checked><label for="no">不折</label>
                     <input type="radio" id="robot" name="fold" value="robot" ><label for="robot">機器人</label><br>
                     <input class="btn-re" type="reset" value="重設">
-                    <a href="orderdata.html"><input class="btn-next" type="submit" value="下一步"></a>
-                </div>
+                    <input class="btn-next" type="submit" value="儲存">
+                </div> 
             </form>
         </div>
     </div>
